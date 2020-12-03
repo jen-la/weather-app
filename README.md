@@ -1,10 +1,14 @@
 # weather-app
 A simple weather app that tells you what to wear.
-### Tech
+### Built using
 - HTML, CSS, JavaScript, Bootstrap
 - Open Weather API
+- Font Awesome
 ### How to run
-You will need to generate your own API key from https://openweathermap.org/api and enter it where indicated in `/src/index.js`. 
-### To do:
-- Use dotenv with Node.js and environmental variable to store the Open Weather API key
-- Incorporate more tailored fashion advice 👕 👖 
+1. Get a free API key from https://openweathermap.org/api. 
+2. Clone the repo.
+`git clone https://github.com/jen-la/weather-app.git`
+3. Enter your API key where indicated in `/src/index.js`.
+4. Open `index.html` in your favourite browser.
+
+
