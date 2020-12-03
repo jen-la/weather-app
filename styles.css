@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Open Sans", arial, sans-serif;
+    height: 100%;
+    min-width: 450px;
+}
+
+body { 
+    position: relative;
+    min-height: 100vh;
+    /* padding-bottom to match footer height */
+    padding-bottom: 2.5rem; 
+    background: url("assets/UnsplashOceanWallpaper.jpg") no-repeat center center fixed;
+    background-size: cover;
+    overflow: scroll;
+} 
+
+#main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+#currentDate {
+    margin: 30px;
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+#cityName {
+    height: auto;
+    width: 50%;
+    min-width: 22rem;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#submitButton {
+    width: 50%;
+    min-width: 22rem;
+    height: 50px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#weatherContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.myCard {
+    box-sizing: border-box;
+    height: 500px;
+    width: 22rem;
+    padding: 20px;
+    margin: auto auto 50px auto;
+    border-radius: 10%;
+    background-color: rgba(245, 245, 245, 0.7);
+}
+
+#cardName {
+    font-size: 1.7rem;
+    min-height: 10%;
+}
+
+#emoji {
+    font-size: 2rem;
+    display: inline-flex;
+}
+
+#temp {
+    font-size: 2.5rem;
+    display: inline-flex;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#range {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#description {
+    font-size: 1.2rem;
+    height: 30%;
+    margin-bottom: 30px;
+}
+
+#advice {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#cardButtons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.save {
+    font-size: 1.5rem;
+    color: #FF6B6B;
+}
+
+.refresh {
+    font-size: 1.5rem;
+    color:black;
+}
+
+.delete {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.save:hover, .refresh:hover, .delete:hover {
+    font-size: 2rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-width: 22rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
